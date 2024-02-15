@@ -12,6 +12,7 @@
         <module>dp</module>
         <module>bst</module>
         <module>misc</module>
+        <module>binary-search</module>
     </modules>
 
 
