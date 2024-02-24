@@ -1,6 +1,6 @@
 package com.striver;
 
-public class LeaseCommenAncestor {
+public class LeastCommonAncestor {
 
   public static void main(String[] args) {
     int res =solLCA(BinaryTree.createBT(), 7, 8);
