@@ -13,6 +13,7 @@
         <module>bst</module>
         <module>misc</module>
         <module>binary-search</module>
+        <module>math</module>
     </modules>
 
 
