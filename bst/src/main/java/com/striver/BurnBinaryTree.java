@@ -29,37 +29,37 @@ public class BurnBinaryTree {
 
 
   //////COPIED FROM GEEKS--- START //////////
-  static int getmaxdis(BinaryTree.Node target, int dis,
-      Set<Integer> vis,
-      Map<Integer, BinaryTree.Node> map)
-  {
-    if (target == null)
-      return dis - 1;
-
-    if (vis.contains(target.data))
-      return Integer.MIN_VALUE;
-    // calls
-    // calls
-
-    vis.add(target.data);
-
-    int a1 = Integer.MIN_VALUE;
-    int a2 = Integer.MIN_VALUE;
-    int a3 = Integer.MIN_VALUE;
-    // if(a->left!=NULL)
-    a1 = getmaxdis(target.left, dis + 1, vis,
-        map); // left child
-
-    // if(a->right!=NULL)
-    a2 = getmaxdis(target.right, dis + 1, vis,
-        map); // right child
-
-    // if(map[a] != NULL)
-    a3 = getmaxdis(map.get(target.data), dis + 1, vis,
-        map); // parent
-
-    return Math.max(Math.max(a1, a2), a3);
-  }
+//  static int getmaxdis(BinaryTree.Node target, int dis,
+//      Set<Integer> vis,
+//      Map<Integer, BinaryTree.Node> map)
+//  {
+//    if (target == null)
+//      return dis - 1;
+//
+//    if (vis.contains(target.data))
+//      return Integer.MIN_VALUE;
+//    // calls
+//    // calls
+//
+//    vis.add(target.data);
+//
+//    int a1 = Integer.MIN_VALUE;
+//    int a2 = Integer.MIN_VALUE;
+//    int a3 = Integer.MIN_VALUE;
+//    // if(a->left!=NULL)
+//    a1 = getmaxdis(target.left, dis + 1, vis,
+//        map); // left child
+//
+//    // if(a->right!=NULL)
+//    a2 = getmaxdis(target.right, dis + 1, vis,
+//        map); // right child
+//
+//    // if(map[a] != NULL)
+//    a3 = getmaxdis(map.get(target.data), dis + 1, vis,
+//        map); // parent
+//
+//    return Math.max(Math.max(a1, a2), a3);
+//  }
 
   //////COPIED FROM GEEKS--- END //////////
 
