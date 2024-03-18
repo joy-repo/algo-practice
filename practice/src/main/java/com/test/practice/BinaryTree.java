@@ -1,4 +1,4 @@
-package com.striver;
+package com.test.practice;
 
 public class BinaryTree {
 
@@ -50,7 +50,8 @@ public class BinaryTree {
     //       2             3
     //    4      5       11  12
     //  8  9    6  7
-   //               100
-  //                  101
+  //               100
+     //              101
+
   }
 }

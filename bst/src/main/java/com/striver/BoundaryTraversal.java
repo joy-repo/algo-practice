@@ -4,8 +4,11 @@ public class BoundaryTraversal {
 
   public static void main(String[] args) {
     BinaryTree.Node node = BinaryTree.createBT();
+    System.out.println("---LEFT-------");
     solLeftTraversal(node);
+    System.out.println("---LEAF--------");
     solLeafNode(node);
+    System.out.println("----RIGHT-REVERSED-------");
     solRightTraversalReversed(node);
   }
 
