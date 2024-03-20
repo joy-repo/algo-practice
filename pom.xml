@@ -17,6 +17,7 @@
         <module>cache-eviction</module>
         <module>practice</module>
         <module>trie</module>
+        <module>linked-list</module>
 
     </modules>
 

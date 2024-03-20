@@ -7,6 +7,10 @@ public class Trie {
 
   public TrieNode rootNode;
 
+  public Trie(){
+    rootNode=new TrieNode();
+  }
+
   public boolean search(String data){
 
     TrieNode node = rootNode;
